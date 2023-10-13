@@ -22,3 +22,36 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+
+/* styles for Task 3 */
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  gap: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  align-items: center;
+  background-color: lightblue;
+  width: 340px;
+  height: 320px;
+  border-radius: 16px;
+}
+
+.img {
+  border-radius: 16px;
+}
+
+.text {
+  width: 320px;
+  text-align: center;
+  font-size: 18px;
+}
